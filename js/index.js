@@ -3,6 +3,7 @@ let array = ["CAST"]
 let wordIndex = 0
 let letterIndex = 0
 
+
 const createLetter = (selector,table) =>{
      const letter = document.createElement("h4")
     selector.appendChild(letter)
@@ -16,7 +17,7 @@ const createLetter = (selector,table) =>{
     }
 
 }
-
+// une fonction qui affiche un à un chaque alphabet d'un mot
 const loop = () => {
     setTimeout(() =>{
         if(letterIndex < array[wordIndex].length) {
