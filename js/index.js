@@ -1,5 +1,5 @@
 const text_3 = document.getElementById("text_3")
-let array2 = ["CAST"]
+let array = ["CAST"]
 let wordIndex = 0
 let letterIndex = 0
 
@@ -19,14 +19,9 @@ const createLetter = (selector,table) =>{
 
 const loop = () => {
     setTimeout(() =>{
-        if(letterIndex < array2[wordIndex].length) {
-            createLetter(text_3,array2,"rgba(205, 70, 49, 1)")
+        if(letterIndex < array[wordIndex].length) {
+            createLetter(text_3,array,"rgba(205, 70, 49, 1)")
             letterIndex++
-            loop()
-        }
-        else{
-            wordIndex++
-            letterIndex = 0
             loop()
         }
     },200)
