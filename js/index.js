@@ -17,7 +17,6 @@ const createLetter = (selector,table) =>{
 
 }
 
-
 const loop = () => {
     setTimeout(() =>{
         if(letterIndex < array2[wordIndex].length) {
@@ -30,7 +29,7 @@ const loop = () => {
             letterIndex = 0
             loop()
         }
-    },800)
+    },200)
 }
 loop()
 

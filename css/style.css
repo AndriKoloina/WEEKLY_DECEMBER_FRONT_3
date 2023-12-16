@@ -11,7 +11,7 @@ body{
 
   .circle-svg {
     width: 500px;
-    height: 800px;
+    height: 1000px;
     position: relative;
     display: flex;
   }
@@ -19,12 +19,12 @@ body{
   .circle-path {
     fill: transparent;
     stroke: black;
-    stroke-width:9;
+    stroke-width:12;
     stroke-dasharray: 1000;
     animation: drawPartialCircle 4s linear;
     border-radius: 50%;
-    height: 20rem;
-    transform: rotate(167deg);
+    height: 22rem;
+    transform: rotate(208deg);
   }
   @keyframes drawPartialCircle {
     0%, 100% {
@@ -41,36 +41,36 @@ body{
     }
   }
   #text_1{
-    font-family: 'Montserrat Alternates,', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 700;
-    font-size:3rem;
+    font-size:4rem;
     line-height: 56.53px;
     letter-spacing: -4%;
     display: flex;
-    color: rgba(205, 70, 49, 1);
+    color: rgba(205, 70, 49, 0.893);
 
   }
   #text_2{
     font-family:'Montserrat Alternates', sans-serif;
     font-weight: 700;
-    font-size:3rem;
+    font-size:4rem;
     line-height: 56.53px;
     letter-spacing: -4%;
     display: flex;
-    margin-top: -9rem;
+    margin-top: -10.5rem;
   }
 #text_3{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 700;
-    font-size:3rem;
+    font-size:4rem;
     line-height: 56.53px;
     letter-spacing: -4%;
     display: flex;
-    margin-top: -8.8rem;
+    margin-top: -10.4rem;
     display: flex;
 }
 .text{
-    margin-top: 24%;
-    margin-left: -15%;
+    margin-top: 18.5%;
+    margin-left: -22.5%;
     display: block;
 }
