@@ -1,0 +1,76 @@
+body{
+    overflow: hidden;
+}
+
+  #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 12%;
+  }
+
+  .circle-svg {
+    width: 500px;
+    height: 800px;
+    position: relative;
+    display: flex;
+  }
+
+  .circle-path {
+    fill: transparent;
+    stroke: black;
+    stroke-width:9;
+    stroke-dasharray: 1000;
+    animation: drawPartialCircle 4s linear;
+    border-radius: 50%;
+    height: 20rem;
+    transform: rotate(167deg);
+  }
+  @keyframes drawPartialCircle {
+    0%, 100% {
+      stroke-dashoffset: 1000;
+    }
+    20% {
+      stroke-dashoffset: 800;
+    }
+    80% {
+      stroke-dashoffset: 0;
+    }
+    100%{
+      stroke-dashoffset: 0;
+    }
+  }
+  #text_1{
+    font-family: 'Montserrat Alternates,', sans-serif;
+    font-weight: 700;
+    font-size:3rem;
+    line-height: 56.53px;
+    letter-spacing: -4%;
+    display: flex;
+    color: rgba(205, 70, 49, 1);
+
+  }
+  #text_2{
+    font-family:'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size:3rem;
+    line-height: 56.53px;
+    letter-spacing: -4%;
+    display: flex;
+    margin-top: -9rem;
+  }
+#text_3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size:3rem;
+    line-height: 56.53px;
+    letter-spacing: -4%;
+    display: flex;
+    margin-top: -8.8rem;
+    display: flex;
+}
+.text{
+    margin-top: 24%;
+    margin-left: -15%;
+    display: block;
+}
