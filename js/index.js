@@ -24,6 +24,7 @@ const barre2 = _$("barre2")
 const article = _$("article")
 const lien_footer = _$("lien_footer1")
 const lien_footer2 = _$("lien_footer2")
+const graph_footer = _$("graph-footer")
 
 
 let tab_image_member = ["image/Scribble (3).png","image/Shining stars.png","image/Face 1.png"]
@@ -381,3 +382,4 @@ const text = (selector,table) => {
 }
 text(lien_footer,tab_footer1)
 text(lien_footer2,tab_footer2)
+graph(graph_footer,0.01,76,"rgba(77, 77, 77, 0.6)",0,"line-footer")

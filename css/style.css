@@ -822,3 +822,19 @@ footer p{
 .footer-image{
     margin-left: 5%;
 }
+.line-footer{
+    margin-left: 12%;
+    margin-top:     7%;
+}
+.p-footer{
+    margin-left: 12%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size:0.7rem;
+    margin-top: 1.5rem;
+    color: rgba(77, 77, 77, 0.6);
+    
+}
+.p-2{
+    margin-left: 68%;
+}
