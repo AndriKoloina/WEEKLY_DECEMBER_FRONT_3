@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="css/font3.jpg" type="image/x-icon">
+    <script>
+        function passerPageSuivante() {
+            window.location.href = 'index.html';
+        }
+        setTimeout(function() {
+            console.log("Attente de 7 secondes...");
+            passerPageSuivante();
+        }, 7000);
+    </script>
+</head>
+<body>
+         <div id="logo">
+        <div class="circle-svg">
+            <div class="loader">
+                <span class="dot dot-1"></span>
+                <span class="dot dot-2"></span>
+                <span class="dot dot-3"></span>
+                <span class="dot dot-4"></span>
+            </div>
+          <svg class="circle-path">
+                <circle cx="32%" cy="45%" r="40.5%" />
+            </svg>
+            <div class="text">
+                <div id="text_1"><h4>POD</h4></div>
+                <div id="text_2"><h4>OF</h4></div>
+                <div id="text_3"></div>
+            </div>
+        </div>
+    </div> 
+    <script src="js/index.js"></script>
+</body>
+</html>
