@@ -527,8 +527,6 @@ h1{
         font-family: 'Montserrat Alternates', sans-serif;
         font-weight: 700;
         font-size:1rem;
-        line-height: 56.53px;
-        letter-spacing: -4%;
         margin-left: 15%;
 }
 .element-line1_2{
@@ -837,4 +835,226 @@ footer p{
 }
 .p-2{
     margin-left: 68%;
+}
+@media only screen and (max-width: 800px) {
+    
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+   #btn4{
+    margin-left: 38%;
+   }
+    #nav-link{
+        margin-left: 0%;
+    }
+    #barre1{
+        margin-left: -15%;
+    }
+    #barre2{ 
+        margin-left: -15%;
+    }
+    .button1{
+        display: flex;
+        margin-left: -2rem;
+    }
+
+    .graph-icon {
+        margin-left: 0;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .title-container{
+        display:block;
+    }
+
+    .scribble1 {
+        margin-left: 0;
+    }
+
+    #id-talk {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    #line_1{
+        display:flex;
+        margin-left: 0%;
+        margin-top: 8rem;
+    }
+    #line_2{
+        display:flex;
+        margin-left: 0%;
+        margin-top: 8rem;
+    }
+
+    .body-select {
+        margin-left: 0;
+        margin-bottom: 2%;
+    }
+    #image-cover{
+        display: block;
+        margin-left: 1%;
+    }
+    #icon{
+        display: block;
+    }
+    #graph1{
+        width: 0%;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #t_body2 h1 {
+        font-size: 2rem; 
+    }
+
+    #t_body2 p {
+        font-size: 1rem; 
+    }
+
+    .element-line1_1 {
+        font-size: 0.8rem; 
+    }
+
+    .element-line1_2 {
+        font-size: 0.7rem; 
+    }
+    #t_body3 h1 {
+        font-size: 2rem; 
+    }
+
+    #t_body3 p {
+        font-size: 1rem; 
+    }
+
+    .recent-title {
+        font-size: 1rem; 
+    }
+    #recent1{
+        display: block;
+        margin-left: -14%;
+    }
+    #recent2{
+        display:block;
+        margin-left: -14%;
+    }
+    #recent3{
+        display: block;
+        margin-left: -14%;
+    }
+    #t_body4 h1 {
+        font-size: 2rem;
+    }
+
+    #t_body4 p {
+        font-size: 1rem; 
+    }
+
+    .become-p,
+    .price,
+    .p-become {
+        font-size: 0.8rem;
+    }
+    #t_body5 h1 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 56.53px;
+        letter-spacing: -4%;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 8%;
+    }
+    
+    #t_body5 p {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-left: 0;
+        margin-top: -1rem;
+    }
+    
+    .scribble3 {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 5%;
+    }
+    
+    .img6 {
+        position: absolute;
+        margin-top: -4%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #t_body6 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(237, 243, 247, 1);
+        margin-top: 10%;
+    }
+    
+    #t_body6 h1 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 56.53px;
+        letter-spacing: -4%;
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    
+    #t_body6 p {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-left: 0;
+        margin-top: -1rem;
+    }
+    
+    .body6-container h4 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 500;
+        font-size: 1.rem;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    
+    .img7 {
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .img8 {
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+    
+    .imge {
+        position: absolute;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: -5%;
+    }
+    
+    .image,
+    .image2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    
 }
