@@ -3,8 +3,7 @@ let array = ["CAST"]
 let wordIndex = 0
 let letterIndex = 0
 
-
-const createLetter = (selector,table) =>{
+const createLetter = (selector, table) =>{
      const letter = document.createElement("h4")
     selector.appendChild(letter)
 
